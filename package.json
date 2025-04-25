@@ -1,12 +1,12 @@
 {
-  "name": "my-weapp",
+  "name": "weapp",
   "version": "1.0.0",
   "private": true,
   "description": "template",
   "templateInfo": {
     "name": "default",
     "typescript": true,
-    "css": "Less",
+    "css": "Sass",
     "framework": "React"
   },
   "scripts": {
@@ -29,6 +29,8 @@
   "author": "",
   "dependencies": {
     "@babel/runtime": "^7.24.4",
+    "@taroify/core": "^0.8.0",
+    "@taroify/icons": "^0.8.0",
     "@tarojs/components": "4.0.12",
     "@tarojs/helper": "4.0.12",
     "@tarojs/plugin-framework-react": "4.0.12",
@@ -39,27 +41,34 @@
     "@tarojs/shared": "4.0.12",
     "@tarojs/taro": "4.0.12",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "tailwind-merge": "^3.2.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@babel/core": "^7.24.4",
     "@babel/plugin-transform-class-properties": "7.25.9",
     "@babel/preset-react": "^7.24.1",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.5",
     "@tarojs/cli": "4.0.12",
-    "@tarojs/vite-runner": "4.0.12",
+    "@tarojs/taro-loader": "4.0.12",
+    "@tarojs/webpack5-runner": "4.0.12",
+    "@types/node": "^18",
     "@types/react": "^18.0.0",
-    "@vitejs/plugin-react": "^4.3.0",
+    "@types/webpack-env": "^1.13.6",
+    "autoprefixer": "^10.4.21",
+    "babel-plugin-import": "^1.13.8",
     "babel-preset-taro": "4.0.12",
-    "eslint": "^8.57.0",
-    "eslint-config-taro": "4.0.12",
-    "eslint-plugin-react": "^7.34.1",
-    "eslint-plugin-react-hooks": "^4.4.0",
     "postcss": "^8.4.38",
+    "postcss-rem-to-responsive-pixel": "^6.0.2",
     "react-refresh": "^0.14.0",
+    "sass": "^1.75.0",
     "stylelint": "^16.4.0",
-    "terser": "^5.30.4",
+    "tailwindcss": "^3.4.17",
+    "tsconfig-paths-webpack-plugin": "^4.1.0",
     "typescript": "^5.4.5",
-    "vite": "^4.2.0"
+    "weapp-tailwindcss": "^4.1.5",
+    "webpack": "5.91.0"
   },
   "packageManager": "pnpm@10.9.0+sha512.0486e394640d3c1fb3c9d43d49cf92879ff74f8516959c235308f5a8f62e2e19528a65cdc2a3058f587cde71eba3d5b56327c8c33a97e4c4051ca48a10ca2d5f"
 }

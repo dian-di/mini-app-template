@@ -1,6 +1,6 @@
 {
   "miniprogramRoot": "./dist",
-  "projectname": "my-weapp",
+  "projectname": "weapp",
   "description": "template",
   "appid": "touristappid",
   "setting": {
