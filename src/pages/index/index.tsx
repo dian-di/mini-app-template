@@ -1,5 +1,5 @@
+import { Text, View } from '@tarojs/components'
 import { useLoad } from '@tarojs/taro'
-import './index.scss'
 
 export default function Index () {
   useLoad(() => {
@@ -7,8 +7,8 @@ export default function Index () {
   })
 
   return (
-    <div className='text-red-500'>
-      <div>Hello world!</div>
-    </div>
+    <View className='text-blue-500'>
+      <Text>Hello world!</Text>
+    </View>
   )
 }

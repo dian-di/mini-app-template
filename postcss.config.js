@@ -1,7 +1,7 @@
 // postcss.config.js
 module.exports = {
   plugins: {
-    tailwindcss: {},
+    "@tailwindcss/postcss": {},
     autoprefixer: {},
     'postcss-import': {},
     'postcss-rem-to-responsive-pixel': {
@@ -10,7 +10,7 @@ module.exports = {
       // 默认所有属性都转化
       propList: ['*'],
       // 转化的单位,可以变成 px / rpx
-      transformUnit: process.env.TARO_ENV === 'h5' ? 'px' : 'rpx', // 转化的单位,可以变成 px / rpx
+      transformUnit: 'rpx', // 转化的单位,可以变成 px / rpx
     },
   },
 }

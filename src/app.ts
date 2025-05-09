@@ -1,7 +1,7 @@
-import { PropsWithChildren } from 'react'
 import { useLaunch } from '@tarojs/taro'
+import type { PropsWithChildren } from 'react'
 
-import './app.scss'
+import './app.css'
 
 function App({ children }: PropsWithChildren<any>) {
   useLaunch(() => {
@@ -12,6 +12,4 @@ function App({ children }: PropsWithChildren<any>) {
   return children
 }
   
-
-
 export default App

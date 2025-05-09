@@ -1,0 +1,6 @@
+{
+  "projectname": "weapp",
+  "setting": {
+    "compileHotReLoad": true
+  }
+}
