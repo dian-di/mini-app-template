@@ -62,7 +62,7 @@
     "postcss": "^8.4.38",
     "postcss-rem-to-responsive-pixel": "^6.0.2",
     "react-refresh": "^0.14.0",
-    "sass": "^1.75.0",
+    "sass": "^1.62.1",
     "stylelint": "^16.4.0",
     "tailwindcss": "^4.1.6",
     "tsconfig-paths-webpack-plugin": "^4.1.0",
